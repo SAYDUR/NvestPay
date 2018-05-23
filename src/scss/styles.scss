@@ -100,8 +100,13 @@ a {
   }
 }
 
-section {padding: 80px 0 0 0;}
-.section {padding: 80px 0;}
+section {
+  padding: 80px 0 0;
+}
+
+.section {
+  padding: 80px 0;
+}
 
 .section-header {
   color: $white;
@@ -148,6 +153,11 @@ section {padding: 80px 0 0 0;}
       left: 27px;
     }
   }
+}
+
+.card {
+  background: #FFF none repeat scroll 0 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .btn {
@@ -664,6 +674,235 @@ button:focus {
       left: 114px;
       width: 198px;
       height: 466px;
+    }
+  }
+}
+
+.cardSize {
+  width: 500px;
+
+  .btn-common {
+    padding: 10px 20px;
+
+    &:hover {
+      border-color: $primary;
+      color: $primary;
+      background-color: $white;
+    }
+  }
+}
+
+footer {
+  padding: 60px 0 0;
+  background-color: $text;
+
+  .footerDocRow {
+    margin-bottom: 20px;
+  }
+
+  .container .row .col {
+    h5 {
+      color: $white;
+      margin-bottom: 20px;
+      font-size: 1em;
+      font-weight: 600;
+    }
+
+    ul li a {
+      color: $white;
+
+      &:hover {
+        color: #9cb4f6;
+      }
+    }
+  }
+
+  .copyrightWrap {
+    padding: 20px 0;
+    border-top: 0.5px solid $gray-400;
+
+    .copyright {
+      color: $gray-300;
+    }
+
+    ul.quicklinks {
+      margin-bottom: 0;
+      text-transform: none;
+      text-align: right;
+      color: $gray-300;
+    }
+  }
+}
+
+.nvestLogo {
+  padding: 20px;
+  grid-area: left;
+  width: 100%;
+  fill: #fff;
+}
+
+.paymentsTabs {
+  padding-top: 100px;
+
+  .nav-tabs {
+    border-bottom: 2px solid #DDD;
+    padding: 20px;
+
+    li {
+      a {
+        border: none;
+        color: $text;
+        padding: 0 20px;
+        text-transform: uppercase;
+
+        &:hover {
+          border: none;
+          color: $primary !important;
+          background: transparent;
+        }
+
+        &.active {
+          color: $primary;
+        }
+      }
+
+      &:hover > a::after {
+        transform: scale(1);
+      }
+    }
+  }
+
+  .tab-pane {
+    padding: 15px 0;
+    overflow: hidden;
+  }
+
+  .tab-content {
+    padding: 20px;
+    transition: all ease-in-out 0.3s;
+  }
+}
+
+.item-boxes {
+  text-align: center;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid $primary;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+    i {
+      font-size: 30px;
+      line-height: 60px;
+      color: $primary;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &:hover {
+    background: $white;
+    box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
+  }
+}
+
+.Boxes {
+  .icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .content-left {
+    position: relative;
+
+    span {
+      float: right;
+      margin-left: 25px;
+    }
+  }
+
+  .content-right {
+    position: relative;
+
+    span {
+      float: left;
+      margin-right: 25px;
+    }
+  }
+
+  .box-item {
+    padding: 30px 0;
+
+    .icon {
+      border: 1px solid $primary;
+      text-align: center;
+      margin: -10px 40px;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+
+      i {
+        color: $primary;
+        font-size: 58px;
+        line-height: 100px;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+      }
+    }
+
+    .text {
+      h4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+
+    &:hover .icon {
+      background: $primary;
+
+      i {
+        color: $white;
+      }
+    }
+  }
+
+  .show-box {
+    padding: 20px 0 0;
+
+    img {
+      width: 100%;
     }
   }
 }
