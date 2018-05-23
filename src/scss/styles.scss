@@ -427,7 +427,7 @@ button:focus {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: $text;
+    color: $white;
     border: 0;
     background-color: $primary;
   }
@@ -773,13 +773,18 @@ footer {
   }
 
   .tab-pane {
-    padding: 15px 0;
+    // padding: 15px 0;
     overflow: hidden;
   }
 
   .tab-content {
-    padding: 20px;
+    // padding: 20px;
     transition: all ease-in-out 0.3s;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .paymentsTabs .nav-tabs li a {
+    padding: 0 14px;
   }
 }
 
@@ -903,6 +908,151 @@ footer {
 
     img {
       width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Boxes .box-item .icon {
+    margin: 0 20px -10px 0;
+  }
+}
+
+.deposit {
+  background-color: $gray-100;
+  border-top: 0.5px solid $gray-400;
+
+  .lines:before {
+    border-color: $gray-100;
+  }
+}
+
+.featuresDiagram {
+  background-color: #f9f9f9;
+
+  .diagram {
+    position: relative;
+
+    .imgContainer img {
+      height: 34em;
+    }
+
+    .icon {
+      color: $primary;
+    }
+
+    .diagramItem {
+      width: 102px;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      a {
+        color: $primary;
+
+        &:hover {
+          color: #9cb4f6;
+        }
+      }
+
+      &.donation {
+        left: 300px;
+        top: 90px;
+      }
+
+      &.platform {
+        left: 532px;
+        top: -50px;
+      }
+
+      &.ecommerce {
+        left: 770px;
+        top: 110px;
+      }
+
+      &.billing {
+        left: 770px;
+        top: 347px;
+      }
+
+      &.retail {
+        left: 538px;
+        top: 478px;
+      }
+
+      &.donation {
+        left: 268px;
+        top: 348px;
+      }
+
+      &.support {
+        left: 275px;
+        top: 108px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .featuresDiagram {
+    .diagram {
+      .imgContainer img {
+        height: 14em;
+      }
+
+      .diagramItem {
+        &.platform {
+          left: 150px;
+          top: -44px;
+        }
+
+        &.ecommerce {
+          left: 229px;
+          top: 152px;
+        }
+
+        &.billing {
+          left: 230px;
+          top: 28px;
+        }
+
+        &.retail {
+          left: 155px;
+          top: 198px;
+        }
+
+        &.donation {
+          left: 300px;
+          top: 90px;
+        }
+
+        &.donation {
+          left: 27px;
+          top: 25px;
+        }
+
+        &.support {
+          left: 25px;
+          top: 150px;
+        }
+      }
+    }
+  }
+}
+
+.diagramSection{
+  border-top: 0.5px solid $gray-400;
+}
+.featuresFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .featuresFlexIteam {
+    width: 310px;
+    margin: 20px 0;
+
+    h3 {
+      font-size: 1.5em;
+      font-weight: 600;
     }
   }
 }

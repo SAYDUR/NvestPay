@@ -307,7 +307,7 @@ button:focus {
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: #333333;
+    color: #fff;
     border: 0;
     background-color: #4676fa; }
   #mainNav .navbar-brand {
@@ -538,11 +538,13 @@ footer {
     .paymentsTabs .nav-tabs li:hover > a::after {
       transform: scale(1); }
   .paymentsTabs .tab-pane {
-    padding: 15px 0;
     overflow: hidden; }
   .paymentsTabs .tab-content {
-    padding: 20px;
     transition: all ease-in-out 0.3s; }
+
+@media only screen and (max-width: 600px) {
+  .paymentsTabs .nav-tabs li a {
+    padding: 0 14px; } }
 
 .item-boxes {
   text-align: center;
@@ -631,3 +633,91 @@ footer {
   padding: 20px 0 0; }
   .Boxes .show-box img {
     width: 100%; }
+
+@media only screen and (max-width: 600px) {
+  .Boxes .box-item .icon {
+    margin: 0 20px -10px 0; } }
+
+.deposit {
+  background-color: #f8f9fa;
+  border-top: 0.5px solid #ced4da; }
+  .deposit .lines:before {
+    border-color: #f8f9fa; }
+
+.featuresDiagram {
+  background-color: #f9f9f9; }
+  .featuresDiagram .diagram {
+    position: relative; }
+    .featuresDiagram .diagram .imgContainer img {
+      height: 34em; }
+    .featuresDiagram .diagram .icon {
+      color: #4676fa; }
+    .featuresDiagram .diagram .diagramItem {
+      width: 102px;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .featuresDiagram .diagram .diagramItem a {
+        color: #4676fa; }
+        .featuresDiagram .diagram .diagramItem a:hover {
+          color: #9cb4f6; }
+      .featuresDiagram .diagram .diagramItem.donation {
+        left: 300px;
+        top: 90px; }
+      .featuresDiagram .diagram .diagramItem.platform {
+        left: 532px;
+        top: -50px; }
+      .featuresDiagram .diagram .diagramItem.ecommerce {
+        left: 770px;
+        top: 110px; }
+      .featuresDiagram .diagram .diagramItem.billing {
+        left: 770px;
+        top: 347px; }
+      .featuresDiagram .diagram .diagramItem.retail {
+        left: 538px;
+        top: 478px; }
+      .featuresDiagram .diagram .diagramItem.donation {
+        left: 268px;
+        top: 348px; }
+      .featuresDiagram .diagram .diagramItem.support {
+        left: 275px;
+        top: 108px; }
+
+@media only screen and (max-width: 600px) {
+  .featuresDiagram .diagram .imgContainer img {
+    height: 14em; }
+  .featuresDiagram .diagram .diagramItem.platform {
+    left: 150px;
+    top: -44px; }
+  .featuresDiagram .diagram .diagramItem.ecommerce {
+    left: 229px;
+    top: 152px; }
+  .featuresDiagram .diagram .diagramItem.billing {
+    left: 230px;
+    top: 28px; }
+  .featuresDiagram .diagram .diagramItem.retail {
+    left: 155px;
+    top: 198px; }
+  .featuresDiagram .diagram .diagramItem.donation {
+    left: 300px;
+    top: 90px; }
+  .featuresDiagram .diagram .diagramItem.donation {
+    left: 27px;
+    top: 25px; }
+  .featuresDiagram .diagram .diagramItem.support {
+    left: 25px;
+    top: 150px; } }
+
+.diagramSection {
+  border-top: 0.5px solid #ced4da; }
+
+.featuresFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .featuresFlex .featuresFlexIteam {
+    width: 310px;
+    margin: 20px 0; }
+    .featuresFlex .featuresFlexIteam h3 {
+      font-size: 1.5em;
+      font-weight: 600; }
