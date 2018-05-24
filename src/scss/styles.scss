@@ -1038,9 +1038,10 @@ footer {
   }
 }
 
-.diagramSection{
+.diagramSection {
   border-top: 0.5px solid $gray-400;
 }
+
 .featuresFlex {
   display: flex;
   flex-wrap: wrap;
@@ -1054,5 +1055,76 @@ footer {
       font-size: 1.5em;
       font-weight: 600;
     }
+  }
+}
+
+.enterprise {
+  h2 {
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .stackCard {
+    // background-color: #1956ff;
+    // width: 700px;
+    // margin: 0 auto;
+    // margin-top: 80px;
+    // border-radius: 10px;
+    .stackBlue {
+      // padding: 0;
+    }
+
+    h1 {
+      font-size: 5.3em;
+      margin: 30px 0;
+      font-weight: 400;
+      line-height: 0.8;
+      font-family: "Heebo", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      color: $primary;
+    }
+
+    h4 {
+      color: $gray-100;
+      font-size: 1.3em;
+      font-weight: 600;
+      margin-top: 30px;
+    }
+
+    p {
+      color: $gray-100;
+      line-height: normal;
+    }
+
+    .card {
+      min-height: 500px;
+    }
+
+    .card2 {
+      background-color: #4676fa !important;
+    }
+
+    .card1 {
+      .card-body h4 {
+        color: $text;
+      }
+
+      .card-body p {
+        color: $text;
+      }
+    }
+
+    .pricing-table ul li {
+      margin-bottom: 13px;
+    }
+  }
+}
+
+.BlockchainPayments h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+@media only screen and (max-width: 800px) {
+  .card1 {
+    margin-bottom: 20px;
   }
 }
