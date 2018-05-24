@@ -1128,23 +1128,7 @@ footer {
     margin-bottom: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Wallet Page
-
 .walletHero {
   h1 {
     font-size: 2rem !important;
@@ -1164,7 +1148,83 @@ footer {
     padding: 0 1rem;
   }
 
-  .contents{
+  .contents {
     padding-bottom: 0 !important;
   }
+}
+
+.landing-card-pane {
+  margin-top: 85%;
+}
+@media only screen and (max-width: 800px) {
+  .landing-card-pane {
+    margin-top: 0;
+  }
+}
+
+.steps {
+  span.fa-stack.fa-4x {
+    font-size: 2rem;
+    background: #f1f8ff;
+    border-radius: 60px;
+    margin-bottom: 10px;
+  }
+
+  h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .ico img {
+    height: 80px;
+    max-width: 88px;
+    margin: 1em auto;
+    display: block;
+  }
+}
+
+
+
+.form-control {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 18px;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    font-family: lato, sans-serif
+}
+
+.form-control:focus {
+    color: none!important;
+    border-color: none!important;
+    outline: 0
+}
+
+.btn-common {
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-weight: 400;
+    color: $white;
+    text-transform: uppercase;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    display: inline-block;
+    font-family: lato, sans-serif;
+    border: 2px solid $primary;
+    background-color: $primary;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px !important;
+
+    &:hover{
+        border: 2px solid $primary;
+        background-color: $white;
+        color: $primary;
+    }
 }

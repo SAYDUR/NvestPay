@@ -1,0 +1,43 @@
+<svg width="103px" height="104px" viewBox="0 0 103 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>bp-card-load</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="How-it-Works" transform="translate(-868.000000, -415.000000)">
+            <g transform="translate(0.000000, 1.000000)" id="bp-card-load">
+                <g transform="translate(868.000000, 415.000000)">
+                    <g id="top-up" transform="translate(0.000000, 13.000000)">
+                        <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="65" height="84"></rect>
+                        <circle id="Oval-28" fill="#FFFFFF" cx="33" cy="40" r="20"></circle>
+                        <g id="shopping-48px-outline_bitcoin" opacity="0.200000003" transform="translate(25.833333, 27.933333)" stroke="#9B9B9B">
+                            <g id="Group" transform="translate(0.273810, 0.279259)">
+                                <path d="M5.47619048,0 L5.47619048,3.35111111" id="Shape"></path>
+                                <path d="M7.66666667,0 L7.66666667,3.35111111" id="Shape"></path>
+                                <path d="M5.47619048,21.2237037 L5.47619048,24.5748148" id="Shape"></path>
+                                <path d="M7.66666667,21.2237037 L7.66666667,24.5748148" id="Shape"></path>
+                                <path d="M0,21.2237037 L3.28571429,21.2237037" id="Shape-Copy"></path>
+                                <path d="M0,3.35111111 L3.28571429,3.35111111" id="Shape-Copy-2"></path>
+                                <path d="M3.28571429,11.1703704 L3.28571429,3.35111111 L9.64417989,3.35111111 C11.898545,3.35111111 13.6904762,5.08251852 13.6904762,7.26074074 C13.6904762,9.43896296 11.898545,11.1703704 9.64417989,11.1703704" id="Shape"></path>
+                                <path d="M3.28571429,21.2237037 L3.28571429,11.1703704 L10.4732143,11.1703704 C12.8690476,11.1703704 14.7857143,13.4044444 14.7857143,16.197037 C14.7857143,18.9896296 12.8690476,21.2237037 10.4732143,21.2237037 L3.28571429,21.2237037 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="health-24px-outline_pulse-phone" transform="translate(8.000000, 0.000000)" fill="#F9F9F9" stroke="#D9D9D9">
+                        <g id="Group">
+                            <path d="M49.7142857,102 L8.28571429,102 C3.72857143,102 0,97.8272727 0,92.7272727 L0,9.27272727 C0,4.17272727 3.72857143,0 8.28571429,0 L49.7142857,0 C54.2714286,0 58,4.17272727 58,9.27272727 L58,92.7272727 C58,97.8272727 54.2714286,102 49.7142857,102 L49.7142857,102 Z" id="Shape"></path>
+                            <path d="M0,12.3367589 L58,12.3367589" id="Shape"></path>
+                            <path d="M0,84.8252964 L58,84.8252964" id="Shape"></path>
+                            <path d="M24.8571429,93.4126482 L33.1428571,93.4126482" id="Shape"></path>
+                        </g>
+                    </g>
+                    <g id="Group-2" opacity="0.800000012" transform="translate(32.000000, 20.000000)">
+                        <path d="M70,44.8695515 C70,46.5231389 68.6631296,47.8636364 67.0013739,47.8636364 L43.4090909,47.8636364 L3.85535011,47.8636364 C2.20307223,47.8636364 0.863636364,46.5209294 0.863636364,44.8695515 L0.863636364,2.99408482 C0.863636364,1.34049743 2.21366171,0 3.85653024,0 L67.0071061,0 C68.6600358,0 70,1.34270697 70,2.99408482 L70,44.8695515 Z" id="Shape" stroke="#4990E2" fill-opacity="0.8" fill="#F1F8FF"></path>
+                        <path d="M0.863636364,15.9545455 L70,15.9545455" id="Shape" stroke="#4990E2"></path>
+                        <path d="M27.4545455,31.9090909 L16.8181818,31.9090909" id="Shape" stroke="#A7C7F1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
